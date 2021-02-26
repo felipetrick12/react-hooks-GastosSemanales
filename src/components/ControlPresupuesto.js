@@ -5,10 +5,10 @@ export const ControlPresupuesto = ({cantidadDinero,restante}) => {
     return (
         <>
             <div className="alert alert-primary">
-                Presupuesto: $ {cantidadDinero}
+                Presupuesto: {cantidadDinero}
             </div>
             <div className={revisarPresupuesto(cantidadDinero,restante)}>
-                Restante: $ {restante}
+                Restante: {restante}
             </div>
           
         </>
